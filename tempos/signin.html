@@ -1,0 +1,7 @@
+<form action="{% url 'signout' %}" method="POST" class="container">
+
+    {% csrf_token %}
+
+    <input type="submit" value="SignOut">
+
+</form>

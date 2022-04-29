@@ -1,0 +1,15 @@
+
+<form action="{% url 'signin' %}" method="POST" class="container">
+
+    {% csrf_token %}
+
+    Email:
+    <input type="text" name="email">
+
+    Password:
+    <input type="text" name="password">
+
+    <input type="submit">
+
+</form>
+
